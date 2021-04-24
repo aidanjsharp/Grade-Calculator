@@ -31,7 +31,7 @@ def main():
             if userInput != 'done':
                 tempGrades.append(userInput)
         grades.append(tempGrades)
-    print(grades)
+    #print(grades)
 
     typeGrades = []
     c = 0
@@ -39,7 +39,7 @@ def main():
         typeGrades.append(average(grades[c]))
         c = c + 1
 
-    print(typeGrades)
+    #print(typeGrades)
 
     totalPercentage = 0
     totalAccumPoints = 0
@@ -66,3 +66,4 @@ def average(L):
 
 
 main()
+input("\n\nPress Enter to exit program.")
